@@ -1,0 +1,16 @@
+{
+  "name": "hw_3",
+  "version": "1.0.0",
+  "description": "Home work number 3 for CS 483",
+  "main": "knur_hw3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khadija Nur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nock": "^9.0.19",
+    "node-fetch": "^1.7.3"
+  }
+}
