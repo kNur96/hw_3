@@ -74,19 +74,19 @@ nock('http://this_is_funny.com')
 .get('/fun')
 .reply(200, {
   _name: 'Khadija Nur',
-  _id: '01039306',
+  _id: '0146796',
   _username: 'knur',
-  _email: 'knur@gmu.edu'
+  _email: 'knur@email.com'
 });
 
 //for testing
 nock('http://this_is_funny.com')
     .get('/hilarious')
     .reply(200, {
-        _name: 'Nafisa Nur',
-        _id: '01039306',
+        _name: 'Person2 Nur',
+        _id: '01098097',
         _username: 'knur',
-        _email: 'knur@gmu.edu'
+        _email: 'knur@email.edu'
     });
 
 //fetch multiple requests with timer.
