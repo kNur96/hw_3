@@ -34,7 +34,7 @@ class laureate_gender{
         this.gender = gender;
     }
 }
-
+app.set('port', (process.env.PORT || 5000));
 
 //Uses Promise.all() Promise.then() and Promise.catch().
 //Displays all of the laureates we will be dealing with.
@@ -401,8 +401,9 @@ app.delete('/laureates', function(req, res) {
 
 //app.set('port', (process.env.PORT || 5000));
 
-app.listen(3000);
-console.log("listening at port 3000");
+app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
+});
 
 
 
